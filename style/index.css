@@ -46,6 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
 /* Add CSS styling here */
 
 h1 {
@@ -108,6 +115,65 @@ nav a:hover {
 
 .bigbanner nav {
     margin-top: 2%;
+}
+
+.section2 .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+.boxes .box1 {
+    width: 20%;
+    margin: 5% 1%;
+    background-image: url(/images/Dell.jpg);
+    background-size: cover;
+}
+
+.boxes .box2 {
+    width: 20%;
+    margin: 10px 1%;
+    padding: 0%;
+    background-size: cover;
+    background-image: url(images/floating-camera.jpg);
+}
+
+.boxes .box3 {
+    width: 20%;
+    margin: 20px 1%;
+    padding: 0%;
+    background-size: cover;
+    background-image: url(images/guitar.jpg);
+}
+
+.column-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxes .box4 {
+    width: 20%;
+    margin: 20px 1%;
+    padding: 0%;
+    background-size: cover;
+    background-image: url(images/guitarist.jpg);
+}
+
+.boxes .box5 {
+    width: 20%;
+    margin: 20px 1%;
+    padding: 0%;
+    background-size: cover;
+    background-image: url(images/photo-1604275140373-704beb23bd69.jpg);
+}
+
+.boxes .box6 {
+    width: 20%;
+    margin: 20px 1%;
+    padding: 0%;
+    background-size: cover;
+    background-image: url();
 }
 
 footer {
